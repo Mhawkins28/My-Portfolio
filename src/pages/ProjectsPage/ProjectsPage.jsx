@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Flashcard App"
               description="A frontend flashcard application to assist people with learning and memorizing concepts of a subject for the Bar Exam. This is the beginning of my coding career, and the first app I created."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/Mhawkins28/Flashcard-App"
               demoLink="https://mhawkins28.github.io/Flashcard-App/start.html"
             />
           </Col>
