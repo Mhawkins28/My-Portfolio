@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Megan Hawkins! </span>
             I am originally from <span className="purple"> Texas</span>, but currently live in <span className="purple">New York City</span>.<br />
-            <br />I am a junior, full-stack <span className="purple">software engineer</span> with a cirtificate in full-stack development from <span className="purple">General Assembly</span>. 
+            <br />I am a junior, full-stack <span className="purple">software engineer</span> with a certificate in full-stack development from <span className="purple">General Assembly</span>. 
             <br />
             <br />
             Apart from coding, here are some other things I love!
