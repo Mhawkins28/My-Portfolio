@@ -1,4 +1,5 @@
 import React from "react";
+import Particle from "../../components/Partricles";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
@@ -12,11 +13,12 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <Particle />
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            <span className="purple"> FIRST </span>, A LITTLE MORE <span className="purple"> ABOUT </span> ME
+            <span className="purple"> FIRST</span>, A LITTLE MORE <span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-body">
               I fell in love with programming. I started my coding journey at the end of 2021 and soon after, took the leap to change careers and attend bootcamp. In September 2022, I graduated with my certificate in software engineering from General Assembly, and I will never look back. I cannot wait to grow in this profession and continue to build more awesome projects!
@@ -55,7 +57,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="meganhawkins.code@gmail.com"
+                  href="mailto:meganhawkins.code@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/meg_ann28"
+                  href="https://twitter.com/MegHawkins_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

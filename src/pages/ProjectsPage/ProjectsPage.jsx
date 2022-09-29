@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../../components/Projects/ProjectCards";
-// import Particle from "../Particle";
+import Particle from "../../components/Partricles";
 import closet from "../../assets/projects/closet.png";
 import flash from "../../assets/projects/flash.png";
 import game from "../../assets/projects/game.png";
@@ -10,7 +10,7 @@ import map from "../../assets/projects/map.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
-      {/* <Particle /> */}
+      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works</strong>
