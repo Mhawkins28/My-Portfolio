@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="OpenCloset"
               description="A digital aid that supports you by allowing you to orginize, plan, and experiment with the clothes in your closet by using photos to log each item of clothing. From those items, you can create different looks, storing them for easy reference to utilize every part of your wardrobe. Once everything is logged, who knows, maybe that long forgotten about top will go perfectly with that new pair of pants you can't figure out how to wear? "
-              ghLink="https://github.com/Mhawkins28/OpenCloset-Client"
+              ghLink="https://github.com/Mhawkins28/OpenCloset-Front"
               demoLink=""
             />
           </Col>
