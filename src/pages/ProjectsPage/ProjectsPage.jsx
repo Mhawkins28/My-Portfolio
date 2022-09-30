@@ -19,7 +19,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={closet}
               isBlog={false}
@@ -28,7 +28,7 @@ function Projects() {
               ghLink="https://github.com/Mhawkins28/OpenCloset-Front"
               demoLink=""
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
