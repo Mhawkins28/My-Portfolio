@@ -11,7 +11,7 @@ function Resume() {
             variant="primary"
             href="https://mhawkins28.github.io/Resume/"
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px"}}
           >Check Out My Resume Here!</Button>
 </Container>
 
