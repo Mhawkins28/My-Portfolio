@@ -251,7 +251,7 @@ button:focus {
   z-index: -1;
   background-image: var(--section-background-color);
   background-image: var(--image-gradient), url(./assets/home-bg.jpg);
-  height:  100vh;
+  height: 100vh;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
@@ -424,7 +424,7 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
-}  
+}
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
@@ -557,126 +557,90 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+.text {
+  justify-content: center;
+  font-size: 0.65rem;
+  /* margin-top: .2rem; */
+  color: transparent;
+}
+
+.text:hover {
+  color: white;
+}
 /* --------- */
 /* Resume */
 /* --------- */
-
-.resume-section {
-  /* position: relative !important; */
-  height: 100vh;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color);
-  background-image: var(--image-gradient), url(./assets/home-bg.jpg);
-  color: white !important;
-}
 
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 2rem;
 }
 
-.resume-left {
-  padding-right: 80px !important;
-}
-
-.resume-right {
-  padding-left: 80px !important;
-}
-
-@media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-
-  .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-}
-.resume .resume-title {
+.resHeader h1 {
   font-size: 2em;
-  font-weight: 700;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  color: #c0b0d3;
+  margin-bottom: 1.5rem;
 }
 
-.resume .resume-item {
-  padding: 0 0 10px 25px;
-  margin-top: -2px;
-  border-left: 2px solid #8a49a8;
-  position: relative;
+.resSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  font-size: 1.4rem;
 }
 
-.resume .resume-item .resume-title {
-  line-height: 18px;
-  font-size: 0.9em;
-  background: #5234795d;
-  padding: 8px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-  text-align: justify;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
+.resSkills li {
   list-style: none;
+  font-size: 1.1em;
+  color: #c0b0d3;
+  margin-bottom: 1rem;
 }
 
-.resume .resume-item:last-child {
-  padding-bottom: 0;
+.expTitle {
+  display: flex;
+  justify-content: space-between;
 }
 
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #8a49a8;
+.resExperience {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
 }
 
-.like-item {
-  padding-top: 10px !important;
-  font-size: 1.1em !important;
-  font-family: sans-serif !important;
+.expHead {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
 }
 
-.like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
-  padding: 0.25rem 0.98rem !important;
-  border-radius: 5px !important;
-  line-height: 1.4 !important;
-  transition: 0.3s ease !important;
+.expData {
+  color: #c0b0d3;
 }
 
-.like-btn:hover {
-  transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+.expDesc {
+  font-size: 1.1rem;
 }
 
-.animate-like {
-  animation-name: likeAnimation;
-  animation-fill-mode: forwards;
-  animation-duration: 0.85s;
+.resEducation {
+  margin-top: 1.5rem;
 }
-@keyframes likeAnimation {
-  0% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+
+.edCon {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.school {
+}
+
+.edItem {
+  display: flex;
+  justify-content: space-between;
 }
