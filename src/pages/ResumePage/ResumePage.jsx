@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../../components/Partricles";
 
+const resume = "resume.pdf";
+
 function Resume() {
   return (
     <Container fluid className='resume-section'>
@@ -10,11 +12,12 @@ function Resume() {
       <div className='resume'>
         <Button
           variant='primary'
-          href='https://mhawkins28.github.io/Resume/'
+          href={resume}
+          download='Megan_Hawkins'
           target='_blank'
           style={{ maxWidth: "250px", textAlign: "center" }}
         >
-          Check Out My Resume Here!
+          Download My Resume Here!
         </Button>
         <br></br>
         <br></br>
